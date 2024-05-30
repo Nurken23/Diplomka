@@ -75,8 +75,11 @@ https://www.mongodb.com/try/download/community
 	•	Откройте файл .env и укажите актуальные значения параметров:
 
 NUXT_OPENAI_API_KEY=ваш-openai-api-key
+
 NUXT_MONGODB_HOST_NAME=localhost
+
 NUXT_MONGODB_PORT=27017
+
 NUXT_MONGODB_DB_NAME=embeddingvectorsdb
 
 Запустите приложение в режиме разработки:
