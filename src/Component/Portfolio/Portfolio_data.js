@@ -1,64 +1,68 @@
-import portfolio1 from "../pic/image/portfolio1.jpg"
-import portfolio2 from "../pic/image/portfolio2.jpg"
-import portfolio3 from "../pic/image/portfolio3.jpg"
-import portfolio4 from "../pic/image/portfolio4.jpg"
-import portfolio5 from "../pic/image/portfolio5.jpg"
-import portfolio6 from "../pic/image/portfolio6.jpg"
+import fa2 from "../pic/image/fa2.avif"
+import fiz from "../pic/image/fiz.jpeg"
+import geo from "../pic/image/gei.jpeg"
+import bio from "../pic/image/bio.png"
+import chem from "../pic/image/chem.jpeg"
+import fich from "../pic/image/fich.jpeg"
 
 const Portfolio_data = [
-    {
-        id: 1,
-        category: "DEVELOPMENT",
-        totalLike: "600",
-        title: "The services provide for design ",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio1,
-    },
-    {
-        id: 2,
-        category: "APPLICATION",
-        totalLike: "750",
-        title: "Mobile app landing design & maintain",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio2,
-    },
-    {
-        id: 3,
-        category: "PHOTOSHOP",
-        totalLike: "630",
-        title: "Logo design creativity & Application ",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio3,
-    },
-    {
-        id: 4,
-        category: "FIGMA",
-        totalLike: "360",
-        title: "Mobile app landing design & Services",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio4,
-    },
-    {
-        id: 5,
-        category: "WEB DESIGN",
-        totalLike: "280",
-        title: "Design for tecnology & services",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio5,
-    },
-    {
-        id: 6,
-        category: "WEB DESIGN",
-        totalLike: "690",
-        title: "App for tecnology & services",
-        titles_one: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.",
-        titles_two: "Consectetur adipisicing elit. Cupiditate distinctio assumenda.Lorem ipsum dolor sit amet consectetur adipisicing elit. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!",
-        image: portfolio6,
-    },
+  {
+    id: 1,
+    category: "Учебное направление",
+    totalLike: "600",
+    title: "Математика - Информатика",
+    titles_one:
+      "Факультет математики и информатики – это центр инноваций и передовых знаний в области точных наук и технологий. Здесь сочетаются фундаментальное математическое образование и современные информационные технологии. Студенты обучаются решать сложные задачи, используя математические методы и компьютерное моделирование, разрабатывать алгоритмы и программные продукты для науки и бизнеса. Ознакомьтесь с программами факультета и откройте для себя мир возможностей в области высоких технологий!",
+    titles_two: "Переходи по ссылке, чтобы узнать больше!",
+    image: fa2,
+  },
+  {
+    id: 2,
+    category: "Учебное направление",
+    totalLike: "750",
+    title: "Математика - География",
+    titles_one:
+      "Кафедра математики и географии Сатпаев Университета предлагает комплексное образование, соединяющее точные науки и исследование Земли. Программы направлены на подготовку специалистов, владеющих математическими методами анализа и способных применять их в географических исследованиях, экологии, геоинформационных системах, землеустройстве и кадастровых работах. Будущие бакалавры осваивают передовые подходы в цифровой логистике, прикладной геологии и бизнес-инжиниринге.",
+    titles_two: "Переходи по ссылке, чтобы узнать больше!",
+    image: geo,
+  },
+  {
+    id: 3,
+    category: "Учебное направление",
+    totalLike: "630",
+    title: "Математика - Физика",
+    titles_one:
+      "Кафедра математики и физики Сатпаев Университета объединяет глубокое теоретическое понимание физических законов с математическим моделированием и анализом. Студенты изучают широкий спектр дисциплин, от BIM-проектирования и управления строительством до дизайна и технологий в машиностроении, что обеспечивает им крепкую научную базу и практические навыки для инновационной работы в индустрии. Курсы охватывают прогнозирование и диагностику в машиностроении, разработку технологий обработки материалов, энергетику и многие другие сферы, подготавливая специалистов для решения сложных задач современности. ",
+    titles_two: "Переходи по ссылке, чтобы узнать больше!",
+    image: fiz,
+  },
+  {
+    id: 4,
+    category: "Учебное направление",
+    totalLike: "360",
+    title: "Биология - География",
+    titles_one:
+      "Кафедра биологии и географии Сатпаев Университета предлагает уникальную программу, которая интегрирует знания о живых системах с изучением физической среды. Студенты, изучающие эту программу, получают компетенции в области инженерной экологии, осваивая методы оценки и управления природными ресурсами, а также прикладные навыки для сохранения и восстановления экосистем. Образовательная программа нацелена на подготовку экспертов, способных анализировать и решать экологические задачи с позиций междисциплинарного подхода.",
+    image: bio,
+  },
+  {
+    id: 5,
+    category: "Учебное направление",
+    totalLike: "280",
+    title: "Биология - Химия",
+    titles_one:
+      "На пересечении биологии и химии кафедра биологии и химии Сатпаев Университета предлагает образовательные программы, посвященные биотехнологиям и фармацевтике. Студенты погружаются в изучение молекулярных процессов и биохимических реакций, что является основой для разработки новых лекарств и медицинских технологий. Программы акцентируют внимание на практическом применении химических и биологических знаний в современной биотехнологии и создании инновационных фармацевтических продуктов.",
+    image: chem,
+  },
+  {
+    id: 6,
+    category: "Учебное направление",
+    totalLike: "690",
+    title: "Химия - Физика",
+    titles_one:
+      "На кафедре химии и физики Сатпаев Университета студенты могут погрузиться в увлекательный мир молекулярных превращений и физических явлений. Образовательные программы охватывают все от химической технологии органических веществ до инноваций в производстве новых материалов. Программы подготовки специалистов в области химической технологии нефтегазохимической продукции оснащают студентов знаниями и навыками для успешной работы в динамично развивающихся отраслях современной промышленности и исследований.",
+    titles_two: "Перейди за посиланням нижче та ознайомся детальніше!",
+    image: fich,
+  },
 ]
 export default Portfolio_data

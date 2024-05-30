@@ -38,8 +38,8 @@ const Contact = () => {
                 <section className='Contact' id='contact'>
                     <div className='container top'>
                         <div className='heading text-center'>
-                            <h4>CONTACT</h4>
-                            <h1>Contact With Me</h1>
+                            <h4>Секция обратной связи</h4>
+                            <h1>Связаться с нами</h1>
                         </div>
 
                         <div className='content d_flex'>
@@ -48,12 +48,12 @@ const Contact = () => {
                                     <div className='img'>
                                         <img src={contact1} alt='' />
                                     </div>
-                                    <div>Nevine Acotanze</div>
-                                    <p>I am avaiable for freelance work. Connect with me via and call in to my account.</p>
+                                    <div>Автор дипломной роботи</div>
+                                    <p>Я буду очень благодарен всем кто поможет мне улучшить веб-сервис, свяжитесь со мной по телефону или по ссылкам ниже:</p>
                                     <br />
-                                    <p>Phone: +998 88 570 02 09</p>
-                                    <p>Email: InfoAkmaljon.uz@mail.ru</p> <br />
-                                    <span>FIND WITH ME</span>
+                                    <p>Телефон: +380 00 00 00 01</p>
+                                    <p>Email: example@gmail.com</p> <br />
+                                    <span>Ищите меня в социальных сетях</span>
                                     <div className='button f_flex'>
                                         <button className='btn_shadow'>
                                             <i className='fab fa-facebook-f'></i>
@@ -72,28 +72,28 @@ const Contact = () => {
                                 <form onSubmit={formSubmit}>
                                     <div className='f_flex'>
                                         <div className='input row'>
-                                            <span>YOUR NAME</span>
+                                            <span>Ваше Имя</span>
                                             <input type='text' name='fullname' value={data.fullname} onChange={InputEvent} />
                                         </div>
                                         <div className='input row'>
-                                            <span>YOUR NUMBER</span>
+                                            <span>Контактный телефон</span>
                                             <input type='phone' name='phone' value={data.phone} onChange={InputEvent} />
                                         </div>
                                     </div>
                                     <div className='input'>
-                                        <span>EMAIL</span>
+                                        <span>Электронный адресс</span>
                                         <input type='email' name='email' value={data.email} onChange={InputEvent} />
                                     </div>
                                     <div className='input'>
-                                        <span>SUBJECT</span>
+                                        <span>Тема</span>
                                         <input type='text' name='subject' value={data.subject} onChange={InputEvent} />
                                     </div>
                                     <div className='input'>
-                                        <span>YOUR MESSAGE</span>
+                                        <span>Ваш месседж</span>
                                         <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent} ></textarea>
                                     </div>
                                     <button className='btn_shadow'>
-                                        SEND MESSAGE <i className='fa fa-arrow-down' ></i>
+                                        Отправить <i className='fa fa-arrow-down' ></i>
                                     </button>
                                 </form>
                             </div>

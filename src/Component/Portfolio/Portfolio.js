@@ -9,8 +9,8 @@ const Portfolio = () => {
             <section className='portfolio top' id="portfolio">
                 <div className='container'>
                     <div className='heading text-center'>
-                        <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
-                        <h1>My Portfolio</h1>
+                        <h4>Основные учебные направления</h4>
+                        <h1>Выбор образовательной программы</h1>
                     </div>
                     <div className='content grid'>
                         {Portfolio_data.map((value, index) => {

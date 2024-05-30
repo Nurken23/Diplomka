@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Header.css"
-import logo from "../pic/logo.png"
+import logo from "../pic/imgonline-com-ua-Resize-tshDpGQugr97q.png"
 
 
 const App = () => {
@@ -23,14 +23,14 @@ const App = () => {
                         {/* <ul className='link f_flex uppercase'> */}
                         <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
 
-                            <li> <a href="#home">home</a></li>
-                            <li> <a href="#features">features</a></li>
-                            <li> <a href="#portfolio">portfolio</a></li>
-                            <li> <a href="#resume">resume</a></li>
-                            <li> <a href="#clients">clients</a></li>
-                            <li> <a href="#blog">blog</a></li>
-                            <li> <a href="#contact">contact</a></li>
-                            <li><button className='home-btn'>BUY NOW</button></li>
+                            <li> <a href="#home">Домашняя</a></li>
+                            <li> <a href="#features">Актуальные новости</a></li>
+                            <li> <a href="#portfolio">Направление обучения</a></li>
+                            <li> <a href="#resume">Карта обновлений</a></li>
+                            <li> <a href="#clients">Отзывы</a></li>
+                            <li> <a href="#blog">Про нас</a></li>
+                            <li> <a href="#contact">Обратная связь</a></li>
+                            
                         </ul>
 
                         <button className='toggle' onClick={() => setMobile(!Mobile)}>

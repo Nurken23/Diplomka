@@ -89,12 +89,12 @@
 
 .hero .gradient-border img {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 400px;
+    top: 150px;
+    bottom: 300;
+    width: 350px;
     padding-top: 20px;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
+    -webkit-border-radius: 10%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;

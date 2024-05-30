@@ -30,8 +30,8 @@ const Testimonial = () => {
             <section className='Testimonial' id='clients'>
                 <div className='container'>
                     <div className='heading text-center'>
-                        <h4>WHAT CLIENTS SAY</h4>
-                        <h1>Testimonial</h1>
+                        <h4>Что говорят пользователи про наш Университет</h4>
+                        <h1>Отзывы</h1>
                     </div>
                     <div className='slide'>
                         {date.map((value, valueIndex) => {

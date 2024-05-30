@@ -37,17 +37,18 @@ const Card = (props) => {
                             <img src={props.image} alt='' />
                         </div>
                         <div className='modal-text right'>
-                            <span>Featured - Design</span>
+                            <span>Направление обучения</span>
                             <h1>{props.title}</h1>
                             <p>{props.titles_one}</p>
                             <p>{props.titles_two}</p>
                             <div className='button f_flex mtop'>
                                 <button className='btn_shadow'>
-                                    LIKE THIS <i className='far fa-thumbs-up'></i>
+                                    Нравится <i className='far fa-thumbs-up'></i>
                                 </button>
-                                <button className='btn_shadow'>
-                                    VIEW PROJECT <i className='fas fa-chevron-right'></i>
-                                </button>
+                                <button className='btn_shadow' onClick={() => window.location.href='https://satbayev.university/ru/entrant-guide?specialties=6'}>
+    Узнать больше<i className='fas fa-chevron-right'></i>
+</button>
+
                             </div>
                             <button className='close-modal btn_shadow' onClick={toggleModal}>
                                 <i className='fas fa-times'></i>

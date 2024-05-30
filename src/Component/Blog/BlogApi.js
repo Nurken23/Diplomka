@@ -1,40 +1,44 @@
-import blog01 from "../pic/image/blog-01.jpg"
-import blog02 from "../pic/image/blog-02.jpg"
-import blog03 from "../pic/image/blog-03.jpg"
+import b1 from "../pic/image/b1.jpeg"
+import b21 from "../pic/image/b21.jpeg"
+import bib from "../pic/image/DALL·E 2024-04-12 05.16.25 - Create an engaging and high-quality image that symbolizes advanced technology in the context of a university setting. The image should evoke the idea .webp"
+import rec from "../pic/image/rec1.jpeg"
+import rec2 from "../pic/image/rec2.jpeg"
+import rec3 from "../pic/image/rec3.jpeg"
+
 
 const BlogApi = [
   {
     id: 1,
-    image: blog01,
-    date: "2 May, 2021",
-    title_one: "Digital Marketo to Their New Office.",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
-  },
-  {
-    id: 2,
-    image: blog02,
-    date: "28 April, 2021",
-    title_one: "The services provide for design ",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
-  },
-  {
-    id: 3,
-    image: blog03,
-    date: "20 Jun, 2021",
-    title_one: "Mobile app landing design & app maintain.",
-    desc_one: "Nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.",
-    title_two: "Nobis eleifend option conguenes.",
-    desc_two: "Mauris tempor, orci id pellentesque convallis, massa mi congue eros, sed posuere massa nunc quis dui. Integer ornare varius mi, in vehicula orci scelerisque sed. Fusce a massa nisi. Curabitur sit amet suscipit nisl. Sed eget nisl laoreet, suscipit enim nec, viverra eros. Nunc imperdiet risus leo, in rutrum erat dignissim id. Ut rhoncus vestibulum facilisis. Duis et lorem vitae ligula cursus venenatis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc vitae nisi tortor. Morbi leo nulla, posuere vel lectus a, egestas posuere lacus. Fusce eleifend hendrerit bibendum. Morbi nec efficitur ex.",
-    title_three: "Mauris tempor, orci id pellentesque.",
-    desc_three: "Nulla non ligula vel nisi blandit egestas vel eget leo. Praesent fringilla dapibus dignissim. Pellentesque quis quam enim. Vestibulum ultrices, leo id suscipit efficitur, odio lorem rhoncus dolor, a facilisis neque mi ut ex. Quisque tempor urna a nisi pretium, a pretium massa tristique. Nullam in aliquam diam. Maecenas at nibh gravida, ornare eros non, commodo ligula. Sed efficitur sollicitudin auctor. Quisque nec imperdiet purus, in ornare odio. Quisque odio felis, vestibulum et.",
-  },
+    image: b1,
+    modalImage: b1,
+    title_one: "История университета",
+    desc_one: " Satbayev University - одно из старейших учебных заведений Республики Казахстан. История университета им. К.И. Сатпаева - флагмана инженерного образования республики - неразрывно связана с историей нашего государства, его культурой и системой высшего образования. Университет основан в 1934 году как Казахский горно-металлургический институт. В 30-е годы XX в. для решения задач по ликвидации технико-экономической отсталости народного хозяйства возникла острая потребность в развитии высшего технического образования в стране. Для решения этой задачи в столице Казахстана, г. Алма-Ата, был открыт Казахский горно-металлургический институт (КазГМИ) с двумя факультетами: горным и цветных металлов. Первый звонок первого учебного года в КазГМИ прозвенел 19 сентября 1934 г. Именно этот день стал началом освоения технических наук в Казахстане. Институт сыграл важную роль в становлении и развитии научной и практической деятельности в области геологии, горного дела, металлургии Казахстана. Научная школа, сформировавшаяся на базе института, внесла большой вклад в развитие рудной сырьевой базы республики и организацию новых технологий горного и металлургического производства. Университет стал базой обеспечения инженерными кадрами промышленности республики и одним из главных источников кадров научных, государственных и общественных деятелей Казахстана. Его история связана с именами таких известных ученых и деятелей культуры, как Омирхан Байконуров, Каныш Сатпаев, Жамал Канлыбаева, Ильяс Есенберлин, Казбек Валиев, Шахмардан Есенов, Акжан аль-Машани, Бахыт Султанов, Аскар Жумагалиев, Айкын Толепберген, Бейбут Атамкулов. Огромны в становлении и развитии Казахского горно-металлургического института заслуги академика К.И. Сатпаева. Начиная с первого выпуска горных инженеров-геологов в 1937 - 1938 гг., Каныш Имантаевич был председателем Государственной экзаменационной комиссии. В годы Великой Отечественной войны являлся членом Ученого Совета вуза. В 1960 году КазГМИ был переименован в КазПТИ - Казахский политехнический институт. В 1967-м на факультете автоматики и вычислительной техники организован вокально-инструментальный ансамбль «Дос-Мукасан». В январе 1980 года в Алма-Ате открылся Архитектурно-строительный институт, базой для которого стали архитектурный и инженерно-строительный факультеты КазПТИ, а также Алма-Атинский филиал Всесоюзного заочного инженерно-строительного института. Институт был награжден орденом Трудового Красного Знамени; в 1999 году университету присвоено имя академика К.И. Сатпаева",
+    title_two: "В наше время",
+    image_two: b21,
+    desc_two: "В январе 1994 года КазПТИ им. В. И. Ленина преобразован в Казахский национальный технический университет (КазНТУ), на который были возложены функции по подготовке кадров для страны по многоуровневой структуре, принятой в мировой практике, а также разработка учебных планов и программ обучения по техническим специальностям. Постановлением Правительства Республики Казахстан от 22 сентября 1999 года за особые заслуги в подготовке инженерно-технических кадров страны и в ознаменование 100-летия со дня рождения академика Каныша Имантаевича Сатпаева Казахскому национальному техническому университету было присвоено имя этого выдающегося казахстанского ученого-геолога. В 2001 г. Указом Президента Республики Казахстан Н.А. Назарбаева университету присвоен особый статус, а в 2014 году - категория «Национальный исследовательский технический университет». В 2017 году КазНИТУ им К.И. Сатпаева был переименован в Satbayev University.",
+    },
+    {
+      id: 2,
+      image: bib,
+      modalImage: bib,
+      title_one: "Наши инновационные разработки",
+      desc_one:
+        "В нашем университете мы уделяем особое внимание внедрению передовых технологий, которые открывают новые горизонты в образовательной сфере. Среди последних достижений — разработка проекта openai-whisper-talk, являющегося воплощением инновационного подхода к обучению и взаимодействию в академической среде. Проект openai-whisper-talk — это демонстрационное приложение для голосового общения, созданное на базе технологий OpenAI. В его основе лежат такие компоненты, как система автоматического распознавания речи Whisper и интерфейс Chat Completions, который моделирует диалог с ассистентом. Также используется функция Embeddings для трансформации текста в векторные данные, что находит применение в семантическом поиске, и современный модуль Text-to-Speech для озвучивания текста. Приложение построено с использованием фреймворка Nuxt, который базируется на Vue.js.",
+      },
+      {
+        id: 3,
+        image: rec,
+        modalImage: rec,
+        title_one: "Руководство Университета",
+        desc_one:
+          "Мейрам Мухаметрахимович Бегентаев - Казахстанский государственный и политический деятель, доктор экономических наук, доцент. Депутат Мажилиса Парламента Республики Казахстан V созыва. С 2001 года занимал ряд руководящих должностей в системе высшего образования; научно-педагогический стаж составляет 15 лет. Депутат Павлодарского городского маслихата ІІІ-IV созывов, занимал должность заместителя акима Павлодарской области. Имеет Благодарность Главы Государства Н.А. Назарбаева (2005 г.), нагрудный знак «Почетный работник образования Республики Казахстан», Почетную грамоту Президента Республики Казахстан, «10 жыл Астана», «Қазақстан Республикасының тәуелсіздігіне 20 жыл» и другие юбилейные медали. Лауреат государственной молодежной премии «Дарын» Правительства Республики Казахстан (2008 г.). Автор более 100 научных публикаций. В 1996 году с отличием окончил Павлодарский индустриальный институт по специальности 'Автомобиле- и тракторостроение' с присвоением квалификации инженер-механик.",
+        title_two: "Кульдеев Ержан Итеменович",
+        image_two: rec2,
+        desc_two: "Известный ученый, горный инженер-геофизик. Кандидат технических наук РК и РФ. Доцент, академик КазНАЕН, член-корреспондент НИА РК. Автор более 100 научных работ, в том числе 80 статей, из них 12 статей в научных изданиях, индексируемых базами данных Web of Science (h-index – 2) и Scopus (h-index – 3), 3 патентов РК, 2 монографий, 5 учебных пособий и 20 учебно-методических пособий. Обладатель гранта Первого Президента РК - Лидера Нации Н.А. Назарбаева и Президента РФ В.В. Путина. Имеет нагрудные знаки «Почетный работник образования Республики Казахстан», «Ғылымды дамытуға сіңірген еңбегі үшін» МОН РК, Медаль «Мұнай газ кешенін дамытуға қосқан үлесі үшін» МЭ РК, Орден «За заслуги в образовании» РФ, звание «Заслуженный деятель науки» и награду «Звезда ученого» Международной академии наук экологии и безопасности жизнедеятельности ООН, Лауреат премии и обладатель медали «Жас Ғалым» Союза ученых Казахстана, Лауреат Государственной научной стипендии для молодых талантливых ученых МОН РК, а также другие награды и медали. Прошел курсы для руководителей ВУЗов Республики Казахстан в Калифорнийском университете Berkeley Institute on Higher Education (г. Беркли, США), курсы для лидеров высшего образования в АОО «Nazarbayev University Graduate School of Education», Eurasian Higher Education Leaders Forum (г. Астана), менеджмент высшего образования в Словацком технологическом университете (г. Братислава, Словакия), по проекту TEMPUS и др.",
+        title_three: "Шалабаев Сапар Катаевич",
+        image_three: rec3,
+        desc_three: "Родился в 1988 году. Имеет большой опыт работы на государственной службе. В течение ряда лет занимал руководящие должности в организациях высшего образования. Магистр социальных наук по специальности «политология», специальность «юриспруденция». Прошел повышение квалификации в Российском экономическом университете имени Г.В. Плеханова, в Almaty Management University по программе «Управление университетом 2020» и в Московской школе управления СКОЛКОВО по программе «Управление университетом». Женат. Воспитывает сына и дочь.",
+       
+        },
 ]
 export default BlogApi
