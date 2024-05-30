@@ -46,19 +46,19 @@ Node.js поставляется с менеджером пакетов npm, к�
 
 Установка ffmpeg:
 # on Ubuntu or Debian
-sudo apt update && sudo apt install ffmpeg
+	sudo apt update && sudo apt install ffmpeg
 
 # on Arch Linux
-sudo pacman -S ffmpeg
+	sudo pacman -S ffmpeg
 
 # on MacOS using Homebrew (https://brew.sh/)
-brew install ffmpeg
+	brew install ffmpeg
 
 # on Windows using Chocolatey (https://chocolatey.org/)
-choco install ffmpeg
+	choco install ffmpeg
 
 # on Windows using Scoop (https://scoop.sh/)
-scoop install ffmpeg
+	scoop install ffmpeg
 
 Установка MongoDb
 https://www.mongodb.com/try/download/community
